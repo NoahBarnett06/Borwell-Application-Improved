@@ -9,4 +9,4 @@ First you will need to download the zipped file of the repository and then extra
 - Fix changing between forms so that only 1 form is open at a time
 - Add a remove button to the doors and windows page (frmOpenings)
 - Increase security in regards to passing data between the front and back ends
-- Not allow more openings than wall space
+- Allow for other measurements rather than just metres
