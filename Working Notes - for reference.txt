@@ -1,0 +1,54 @@
+windows/doors
+
+Room class
+Wall1 - decimal (length * height)
+Wall2 - decimal (width * height)
+Volume - decimal (width * length * height)
+FloorArea - decimal (width * length)
+
+!!! add windows & doors calculation first !!!
+Paint - ??? (2(Wall1 + Wall2) /10 - round function (if Walls > Math.Round(Walls)
+
+var ValidInput = false;
+
+            frmDoorsAndWindows Form1 = new frmDoorsAndWindows();
+            Form1.ShowDialog(); // Shows Form2
+            frmDoorsAndWindows Form2 = new frmDoorsAndWindows();
+            frmDoorsAndWindows Form3 = new frmDoorsAndWindows();
+
+test public array - if top line needed - maybe put in class
+
+window class
+number
+width
+height
+
+door class
+
+single door+window class (openings?)
+count = 0
+width
+height
+ID - return count += 1
+area - width * height
+
+why did i use an array on the homepage??
+
+
+Improvements
+change metric from metres to anything - change calculations in class to mimic this
+add testing documentation
+bountry testing - super large numbers not working properly
+change instruction text - not in metres, only upto ? digits and 2dp
+check class, maybe use some inheritance 
+future changes - way to remove doors/windows from the list
+openings bigger that walls - show error msg
+leaving openings page resets list but not class
+change comments
+
+main focus moving forward - more user friendly, difficult to break accidentally and produce invalid results
+read me - measured in metres but other measurments work also
+
+i made a few changes based on feedback i recieved last time 
+i did testing based on the final product, since i had already completed the product
+i did testing throughout development but it was all done mainly in my head and wasnt written down anywhere
